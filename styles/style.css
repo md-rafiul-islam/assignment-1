@@ -12,7 +12,7 @@
 }
 
 /* shared style */
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -28,18 +28,17 @@
   justify-content: center;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-
 /* header background img */
-header{
-  background-image: url('/images/Hero-bg.png');
+header {
+  background-image: url("/images/Hero-bg.png");
   height: 658px;
 }
 /* nav sec */
-nav{
+nav {
   max-width: 1140px;
   margin: 0px auto;
   height: 150px;
@@ -47,67 +46,66 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-.logo{
+.logo {
   font-size: 34px;
   font-weight: bold;
 }
 
-
 /* Title box */
-.title-box{
+.title-box {
   max-width: 905px;
   height: 237px;
   margin: 158px auto;
 }
 
-.title{
+.title {
   color: #252432;
   font-size: 65px;
   font-weight: bold;
 }
-.title-button{
+.title-button {
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 
 /* action styles */
-.action{
+.action {
   max-width: 1140px;
   margin: 0px auto;
   margin-top: 116px;
   margin-bottom: 253px;
 }
 
-.action-image{
+.action-image {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 328px;
 }
 
-.action-image-details{
+.action-image-details {
   height: 203px;
   width: 517px;
 }
-.action-image-details h1{
+.action-image-details h1 {
   font-size: 42px;
   color: #252432;
 }
 
-.action-image-details p{
-  margin:23px 0px;
+.action-image-details p {
+  margin: 23px 0px;
   font-size: 24px;
   color: rgba(37, 36, 50, 0.5);
 }
 
-.action-image-image img{
+.action-image-image img {
   border-radius: 48px;
   height: 328px;
   width: 403px;
 }
 
-.action-data{
+.action-data {
   height: 306px;
   background-color: rgba(78, 71, 255, 0.1);
   border-radius: 24px;
@@ -116,32 +114,32 @@ nav{
   align-items: center;
 }
 
-.action-data-box{
+.action-data-box {
   height: 206px;
   width: 856px;
 }
 
-.action-data-title{
+.action-data-title {
   font-size: 38px;
   color: #252432;
 }
 
-.stat{
+.stat {
   display: flex;
   justify-content: space-evenly;
 }
 
-.stat-title{
+.stat-title {
   font-size: 80px;
   font-weight: bold;
 }
 
-.stat-title-desc{
+.stat-title-desc {
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
 }
 
-.get-in-touch{
+.get-in-touch {
   height: 632px;
   max-width: 1140px;
   margin: 0px auto;
@@ -149,17 +147,43 @@ nav{
   justify-content: space-between;
   align-items: center;
 
-
   border: 1px solid red;
 }
 
-.touch-title-box{
+.touch-title-box {
   width: 528px;
 
   border: 1px solid red;
 }
 
-.touch-title{
+.touch-title {
   font-size: 97px;
   font-weight: bold;
+}
+
+/* text box style */
+.text-box {
+  width: 497px;
+}
+#email,
+#name,
+#message {
+  width: 99%;
+  height: 70px;
+
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+
+/* footer */
+
+footer{
+  margin-top: 104px;
+  width: auto;
+  height: 488;
 }
