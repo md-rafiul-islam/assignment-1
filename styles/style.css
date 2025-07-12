@@ -146,14 +146,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  border: 1px solid red;
 }
 
 .touch-title-box {
   width: 528px;
-
-  border: 1px solid red;
 }
 
 .touch-title {
@@ -179,27 +175,26 @@ form label {
   margin-top: 10px;
 }
 
-
 /* footer */
 
-footer{
-  margin:0 auto;
+footer {
+  margin: 0 auto;
   margin-top: 104;
   margin-bottom: 104px;
   max-width: 531px;
   height: 488;
 }
-footer h1{
+footer h1 {
   font-size: 100px;
 }
-footer p{
-  color: #8987A1;
+footer p {
+  color: #8987a1;
 }
-.some-text{
+.some-text {
   display: flex;
   justify-content: space-evenly;
 }
-.some-text a{
+.some-text a {
   text-decoration: none;
-  color: #8987A1;
+  color: #8987a1;
 }
