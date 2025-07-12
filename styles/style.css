@@ -140,3 +140,26 @@ nav{
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
 }
+
+.get-in-touch{
+  height: 632px;
+  max-width: 1140px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  border: 1px solid red;
+}
+
+.touch-title-box{
+  width: 528px;
+
+  border: 1px solid red;
+}
+
+.touch-title{
+  font-size: 97px;
+  font-weight: bold;
+}
